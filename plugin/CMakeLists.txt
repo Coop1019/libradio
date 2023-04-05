@@ -110,8 +110,8 @@ include_directories(libradio PUBLIC
     )
 
 # Compiler flags
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror --std=c11 \
-    -Wno-unused-local-typedefs -fvisibility=hidden")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror --std=c11 \
+#    -Wno-unused-local-typedefs -fvisibility=hidden")
 if(APPLE)
 	set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -arch x86_64 -arch arm64 \
 	    -Wno-deprecated")

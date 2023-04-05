@@ -79,6 +79,9 @@ standalone)
 felis742)
 	CMAKE_OPTS="-DBACKEND=0 -DAPCTL=0 -DOPENGPWS_CTL=1 -DDEF_CLAMP=0"
 	;;
+lss)
+	CMAKE_OPTS="-DBACKEND=0 -DAPCTL=0 -DOPENGPWS_CTL=1 -DDEF_CLAMP=0"
+	;;
 *)
 	echo "Unknown options value $OPTIONS. See $0 -h for help" >&2
 	exit 1
